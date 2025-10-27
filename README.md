@@ -2,8 +2,6 @@
 
 Ứng dụng quản lý công việc hiện đại, đầy đủ tính năng được xây dựng bằng React, TypeScript và Tailwind CSS.
 
-![Task Manager Demo](screenshots/demo.png)
-
 ## ✨ Tính Năng
 
 - ✅ **Thêm, sửa và xóa công việc** - Đầy đủ các thao tác CRUD
