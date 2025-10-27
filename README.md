@@ -109,10 +109,3 @@ Dự án này là mã nguồn mở và có sẵn theo [Giấy phép MIT](LICENSE
 ## 🌟 Đóng Góp
 
 Mọi đóng góp đều được chào đón! Vui lòng tạo Pull Request hoặc mở Issue nếu bạn có ý tưởng cải thiện.
-
-## 🙏 Lời Cảm Ơn
-
-- [React Documentation](https://react.dev)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Hello Pangea DnD](https://github.com/hello-pangea/dnd)
-- [Lucide Icons](https://lucide.dev)
