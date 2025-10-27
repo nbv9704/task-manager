@@ -52,13 +52,13 @@ npm run build
 
 ## 📸 Ảnh Chụp Màn Hình
 
-### Chế Độ Sáng
+### Light Mode
 ![Light Mode](screenshots/light-mode.png)
 
-### Chế Độ Tối
+### Dark Mode
 ![Dark Mode](screenshots/dark-mode.png)
 
-### Kéo Thả
+### Drag & Drop
 ![Drag and Drop](screenshots/drag-drop.gif)
 
 ## 🎯 Kiến Thức Đạt Được
