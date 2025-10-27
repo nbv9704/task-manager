@@ -1,105 +1,118 @@
-# 📝 Task Manager App
+# 📝 Ứng Dụng Quản Lý Công Việc
 
-A modern, feature-rich task management application built with React, TypeScript, and Tailwind CSS.
+Ứng dụng quản lý công việc hiện đại, đầy đủ tính năng được xây dựng bằng React, TypeScript và Tailwind CSS.
 
 ![Task Manager Demo](screenshots/demo.png)
 
-## ✨ Features
+## ✨ Tính Năng
 
-- ✅ **Add, edit, and delete tasks** - Full CRUD operations
-- ✅ **Mark tasks as complete** - Track your progress
-- ✅ **Drag & drop to reorder** - Organize tasks your way
-- ✅ **Filter by status** - View All/Active/Completed tasks
-- ✅ **Dark mode support** - Easy on the eyes
-- ✅ **Persistent storage** - Data saved in localStorage
-- ✅ **Fully responsive** - Works on all devices
-- ✅ **Smooth animations** - Delightful user experience
+- ✅ **Thêm, sửa và xóa công việc** - Đầy đủ các thao tác CRUD
+- ✅ **Đánh dấu hoàn thành** - Theo dõi tiến độ công việc
+- ✅ **Kéo thả để sắp xếp** - Tổ chức công việc theo ý muốn
+- ✅ **Lọc theo trạng thái** - Xem tất cả/đang làm/đã hoàn thành
+- ✅ **Chế độ tối** - Bảo vệ mắt khi sử dụng
+- ✅ **Lưu trữ bền vững** - Dữ liệu được lưu trong localStorage
+- ✅ **Responsive hoàn toàn** - Hoạt động trên mọi thiết bị
+- ✅ **Hiệu ứng mượt mà** - Trải nghiệm người dùng thú vị
 
-## 🚀 Live Demo
+## 🚀 Demo Trực Tuyến
 
-👉 **[View Live Demo](https://task-manager-nbv9704.vercel.app)**
+👉 **[Xem Demo](https://task-manager-nbv9704.vercel.app)**
 
-## 🛠️ Tech Stack
+## 🛠️ Công Nghệ Sử Dụng
 
-- **React 19** - UI library
-- **TypeScript** - Type safety
-- **Tailwind CSS 3** - Styling
-- **@hello-pangea/dnd** - Drag & drop functionality
-- **Lucide React** - Beautiful icons
+- **React 19** - Thư viện UI
+- **TypeScript** - Đảm bảo type safety
+- **Tailwind CSS 3** - Framework CSS
+- **@hello-pangea/dnd** - Thư viện kéo thả
+- **Lucide React** - Bộ icon đẹp
 - **Vite** - Build tool
 
-## 💻 Getting Started
+## 💻 Bắt Đầu
 
-### Prerequisites
+### Yêu Cầu
 - Node.js 20+ 
-- npm or yarn
+- npm hoặc yarn
 
-### Installation
+### Cài Đặt
 ```bash
 # Clone repository
 git clone https://github.com/nbv9704/task-manager.git
 cd task-manager
 
-# Install dependencies
+# Cài đặt dependencies
 npm install
 
-# Run development server
+# Chạy development server
 npm run dev
 
-# Build for production
+# Build cho production
 npm run build
 ```
 
-## 📸 Screenshots
+## 📸 Ảnh Chụp Màn Hình
 
-### Light Mode
+### Chế Độ Sáng
 ![Light Mode](screenshots/light-mode.png)
 
-### Dark Mode
+### Chế Độ Tối
 ![Dark Mode](screenshots/dark-mode.png)
 
-### Drag & Drop
+### Kéo Thả
 ![Drag and Drop](screenshots/drag-drop.gif)
 
-## 🎯 Key Learnings
+## 🎯 Kiến Thức Đạt Được
 
-### 1. State Management
-- Custom hooks for reusable logic (`useLocalStorage`, `useTheme`)
-- Efficient state updates with immutability
-- Performance optimization with `useMemo`
+### 1. Quản Lý State
+- Custom hooks để tái sử dụng logic (`useLocalStorage`, `useTheme`)
+- Cập nhật state hiệu quả với immutability
+- Tối ưu hiệu năng với `useMemo`
 
 ### 2. TypeScript Best Practices
-- Strict typing with interfaces
+- Typing chặt chẽ với interfaces
 - Type-safe event handlers
 - Generic custom hooks
 
-### 3. Drag & Drop Implementation
-- Integrated @hello-pangea/dnd library
-- Smooth reordering with visual feedback
-- Persisting order in localStorage
+### 3. Triển Khai Drag & Drop
+- Tích hợp thư viện @hello-pangea/dnd
+- Sắp xếp mượt mà với phản hồi trực quan
+- Lưu trữ thứ tự trong localStorage
 
-### 4. User Experience
-- Smooth animations and transitions
-- Intuitive hover effects
-- Responsive design for all screen sizes
-- Accessible with keyboard navigation
+### 4. Trải Nghiệm Người Dùng
+- Animations và transitions mượt mà
+- Hiệu ứng hover trực quan
+- Thiết kế responsive cho mọi kích thước màn hình
+- Hỗ trợ điều hướng bằng bàn phím
 
-## 🔮 Future Enhancements
+## 🔮 Tính Năng Tương Lai
 
-- [ ] Task editing (double-click to edit)
-- [ ] Categories and tags
-- [ ] Due dates and reminders
-- [ ] Search functionality
-- [ ] Export/import tasks
-- [ ] Backend integration
-- [ ] Multi-user support
+- [ ] Chỉnh sửa công việc (double-click để sửa)
+- [ ] Phân loại và gắn thẻ
+- [ ] Ngày đến hạn và nhắc nhở
+- [ ] Tính năng tìm kiếm
+- [ ] Xuất/nhập dữ liệu
+- [ ] Tích hợp backend
+- [ ] Hỗ trợ nhiều người dùng
 
-## 👨‍💻 Author
+## 👨‍💻 Tác Giả
 
 **Ngô Bảo Việt**
 - GitHub: [@nbv9704](https://github.com/nbv9704)
 - Email: ngobaoviet97@gmail.com
 
-## 📄 License
+## 📄 Giấy Phép
 
-This project is open source and available under the [MIT License](LICENSE).
+Dự án này là mã nguồn mở và có sẵn theo [Giấy phép MIT](LICENSE).
+
+---
+
+## 🌟 Đóng Góp
+
+Mọi đóng góp đều được chào đón! Vui lòng tạo Pull Request hoặc mở Issue nếu bạn có ý tưởng cải thiện.
+
+## 🙏 Lời Cảm Ơn
+
+- [React Documentation](https://react.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Hello Pangea DnD](https://github.com/hello-pangea/dnd)
+- [Lucide Icons](https://lucide.dev)
