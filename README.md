@@ -1,73 +1,111 @@
-# React + TypeScript + Vite
+# 📝 Ứng Dụng Quản Lý Công Việc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ứng dụng quản lý công việc hiện đại, đầy đủ tính năng được xây dựng bằng React, TypeScript và Tailwind CSS.
 
-Currently, two official plugins are available:
+![Task Manager Demo](screenshots/demo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Tính Năng
 
-## React Compiler
+- ✅ **Thêm, sửa và xóa công việc** - Đầy đủ các thao tác CRUD
+- ✅ **Đánh dấu hoàn thành** - Theo dõi tiến độ công việc
+- ✅ **Kéo thả để sắp xếp** - Tổ chức công việc theo ý muốn
+- ✅ **Lọc theo trạng thái** - Xem tất cả/đang làm/đã hoàn thành
+- ✅ **Chế độ tối** - Bảo vệ mắt khi sử dụng
+- ✅ **Lưu trữ bền vững** - Dữ liệu được lưu trong localStorage
+- ✅ **Responsive hoàn toàn** - Hoạt động trên mọi thiết bị
+- ✅ **Hiệu ứng mượt mà** - Trải nghiệm người dùng thú vị
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Demo Trực Tuyến
 
-## Expanding the ESLint configuration
+👉 **[Xem Demo](https://task-manager-ebon-eight-60.vercel.app)**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Công Nghệ Sử Dụng
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React 19** - Thư viện UI
+- **TypeScript** - Đảm bảo type safety
+- **Tailwind CSS 3** - Framework CSS
+- **@hello-pangea/dnd** - Thư viện kéo thả
+- **Lucide React** - Bộ icon đẹp
+- **Vite** - Build tool
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 💻 Bắt Đầu
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Yêu Cầu
+- Node.js 20+ 
+- npm hoặc yarn
+
+### Cài Đặt
+```bash
+# Clone repository
+git clone https://github.com/nbv9704/task-manager.git
+cd task-manager
+
+# Cài đặt dependencies
+npm install
+
+# Chạy development server
+npm run dev
+
+# Build cho production
+npm run build
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📸 Ảnh Chụp Màn Hình
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Chế Độ Sáng
+![Light Mode](screenshots/light-mode.png)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Chế Độ Tối
+![Dark Mode](screenshots/dark-mode.png)
+
+### Kéo Thả
+![Drag and Drop](screenshots/drag-drop.gif)
+
+## 🎯 Kiến Thức Đạt Được
+
+### 1. Quản Lý State
+- Custom hooks để tái sử dụng logic (`useLocalStorage`, `useTheme`)
+- Cập nhật state hiệu quả với immutability
+- Tối ưu hiệu năng với `useMemo`
+
+### 2. TypeScript Best Practices
+- Typing chặt chẽ với interfaces
+- Type-safe event handlers
+- Generic custom hooks
+
+### 3. Triển Khai Drag & Drop
+- Tích hợp thư viện @hello-pangea/dnd
+- Sắp xếp mượt mà với phản hồi trực quan
+- Lưu trữ thứ tự trong localStorage
+
+### 4. Trải Nghiệm Người Dùng
+- Animations và transitions mượt mà
+- Hiệu ứng hover trực quan
+- Thiết kế responsive cho mọi kích thước màn hình
+- Hỗ trợ điều hướng bằng bàn phím
+
+## 🔮 Tính Năng Tương Lai
+
+- [ ] Chỉnh sửa công việc (double-click để sửa)
+- [ ] Phân loại và gắn thẻ
+- [ ] Ngày đến hạn và nhắc nhở
+- [ ] Tính năng tìm kiếm
+- [ ] Xuất/nhập dữ liệu
+- [ ] Tích hợp backend
+- [ ] Hỗ trợ nhiều người dùng
+
+## 👨‍💻 Tác Giả
+
+**Ngô Bảo Việt**
+- GitHub: [@nbv9704](https://github.com/nbv9704)
+- Email: ngobaoviet97@gmail.com
+
+## 📄 Giấy Phép
+
+Dự án này là mã nguồn mở và có sẵn theo [Giấy phép MIT](LICENSE).
+
+---
+
+## 🌟 Đóng Góp
+
+Mọi đóng góp đều được chào đón! Vui lòng tạo Pull Request hoặc mở Issue nếu bạn có ý tưởng cải thiện.
