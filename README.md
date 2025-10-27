@@ -2,8 +2,6 @@
 
 Ứng dụng quản lý công việc hiện đại, đầy đủ tính năng được xây dựng bằng React, TypeScript và Tailwind CSS.
 
-![Task Manager Demo](screenshots/demo.png)
-
 ## ✨ Tính Năng
 
 - ✅ **Thêm, sửa và xóa công việc** - Đầy đủ các thao tác CRUD
@@ -52,13 +50,13 @@ npm run build
 
 ## 📸 Ảnh Chụp Màn Hình
 
-### Chế Độ Sáng
+### Light Mode
 ![Light Mode](screenshots/light-mode.png)
 
-### Chế Độ Tối
+### Dark Mode
 ![Dark Mode](screenshots/dark-mode.png)
 
-### Kéo Thả
+### Drag & Drop
 ![Drag and Drop](screenshots/drag-drop.gif)
 
 ## 🎯 Kiến Thức Đạt Được
