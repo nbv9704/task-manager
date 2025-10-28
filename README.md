@@ -56,8 +56,14 @@ npm run build
 ### Dark Mode
 ![Dark Mode](screenshots/dark-mode.png)
 
-### Drag & Drop
-![Drag and Drop](screenshots/drag-drop.gif)
+### Current Weather
+![Current Weather](screenshots/current-weather.png)
+
+### 24-Hour Temperature
+![24-Hour Temperature](screenshots/24-hour-temperature.png)
+
+### 7-Day Forecast
+![7-Day Forecast](screenshots/7-day-forecast.png)
 
 ## 🎯 Kiến Thức Đạt Được
 
